@@ -1,0 +1,62 @@
+.card {
+  --card-bg: var(--demo-light);
+  --dot-color: color-mix(in hsl, var(--demo-primary), transparent 95%);
+
+  background-color: var(--card-bg);
+  background-image: radial-gradient(var(--dot-color) 10%, transparent 12%),
+    radial-gradient(var(--dot-color) 11%, transparent 13%);
+  background-size: 28px 28px;
+  background-position: 0 0, 72px 72px;
+  padding: 1rem;
+  border: 1px solid var(--demo-primary);
+  position: relative;
+  height: 100%;
+  display: grid;
+  gap: 1rem;
+  align-content: space-between;
+}
+
+.card__number-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__number-icon::before {
+  content: "0" attr(data-num);
+  background-color: var(--demo-accent);
+  font-weight: 600;
+  font-size: 1.15rem;
+}
+
+.card__number-icon::before,
+.card__number-icon img {
+  width: 2.25rem;
+  aspect-ratio: 1;
+  display: grid;
+  place-content: center;
+}
+
+.card__number-icon img {
+  border: 2px solid var(--demo-tertiary);
+  padding: 0.15rem;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--demo-primary);
+}
+
+.card a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.card :is(h2, h3) {
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.card a {
+  font-size: inherit;
+}
