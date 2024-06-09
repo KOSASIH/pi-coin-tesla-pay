@@ -1,0 +1,26 @@
+.footer {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+
+.footer__copyright {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__social-item {
+  margin-right: 20px;
+}
+
+.footer__social-item:last-child {
+  margin-right: 0;
+}
