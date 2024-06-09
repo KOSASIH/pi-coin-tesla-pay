@@ -1,0 +1,16 @@
+.post {
+  container-type: inline-size;
+  container-name: summary;
+}
+
+@container summary (min-width: 400px) {
+  .card {
+    font-size: 1.5em;
+  }
+}
+
+@container summary (min-width: 400px) {
+  @container (min-width: 800px) {
+    /* <stylesheet> */
+  }
+}
