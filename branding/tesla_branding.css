@@ -1,0 +1,21 @@
+/* tesla_branding.css */
+body {
+    font-family: 'Tesla Font', sans-serif;
+    background-color: #333;
+}
+
+.tesla-logo {
+    background-image: url('tesla-logo.png');
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.tesla-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
