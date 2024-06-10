@@ -62,6 +62,6 @@ Special thanks to the following individuals and organizations for their contribu
 Contact
 -------
 
-For questions, comments, or concerns about TeslaPay, please contact us at [teslapay@example.com](mailto:teslapay@example.com).
+For questions, comments, or concerns about TeslaPay, please contact us at [teslapay@pidrive.com](mailto:teslapay@pidrive.com).
 
 Happy paying! 🚀💸
