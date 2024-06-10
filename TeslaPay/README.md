@@ -58,6 +58,7 @@ Special thanks to the following individuals and organizations for their contribu
 
 * KOSASIH
 * Pi Nexus
+* All contributors
 
 Contact
 -------
