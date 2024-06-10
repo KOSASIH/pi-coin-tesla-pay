@@ -56,8 +56,8 @@ TeslaPay was built using the following technologies:
 
 Special thanks to the following individuals and organizations for their contributions to TeslaPay:
 
-* [Your Name]
-* [Your Organization]
+* KOSASIH
+* Pi Nexus
 
 Contact
 -------
