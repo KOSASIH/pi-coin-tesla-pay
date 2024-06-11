@@ -25,7 +25,7 @@ Getting Started
 
 To get started with TeslaPay, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/teslapay/teslapay.git`
+1. Clone the repository: `git clone https://github.com/KOSASIH/teslapay.git`
 2. Install the dependencies: `pip install -r requirements.txt`
 3. Run the backend server: `python backend/teslapay_server.py`
 4. Run the frontend application: `npm start` (for web) or `npx react-native start` (for mobile)
